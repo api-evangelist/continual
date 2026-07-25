@@ -1,0 +1,24 @@
+generated: '2026-07-18'
+method: searched
+source: https://pypi.org/project/continual/
+notes: >-
+  Only the first-party Python distribution was found on public registries. The npm
+  package "continual" is an unrelated third-party project (cchamberlain) and is NOT
+  included. No first-party JavaScript, Go, Ruby, Java, .NET, or Rust client was
+  published. The Python package bundles both the SDK and the `continual` CLI; its
+  last release (2.0.0a51) was 2023-03-22, after which the product went dormant.
+packages:
+- language: python
+  registry: pypi
+  name: continual
+  url: https://pypi.org/project/continual/
+  install: pip3 install continual
+  official: true
+  summary: Python CLI and SDK for Continual — operational AI for the modern data stack.
+  latest_stable: 0.5.87
+  latest_release: 2.0.0a51
+  first_release: '2019-10-30'
+  last_release: '2023-03-22'
+  releases: 139
+  requires_python: '>=3.8,<3.11'
+  provides_cli: true

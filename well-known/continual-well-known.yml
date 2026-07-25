@@ -1,0 +1,21 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of https://continual.ai/.well-known/*
+host: https://continual.ai
+notes: >-
+  No /.well-known/ discovery documents are published. The site is a parked
+  single-page shell (product dormant), so every probed path returns 404. Absence is
+  recorded as valid data; no files were saved because none returned 200.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404

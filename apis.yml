@@ -1,21 +1,52 @@
 aid: continual
 name: Continual
-description: 'Continual is a company surfaced as a portfolio company of amplify-partners and added to
-  the API Evangelist network as a stub for enrichment. Sector: developer-tools. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Continual was an operational-AI / MLOps platform for the modern data stack, founded
+  by Tristan Zajonc (previously Sense, acquired by Cloudera) and Tyler Kohn
+  (co-founder of RichRelevance). It let data and analytics teams declaratively build,
+  deploy, and continuously maintain production predictive models directly inside
+  cloud data warehouses — Snowflake, Databricks, and BigQuery — using SQL and dbt as
+  the primary interface rather than bespoke ML pipelines. The company raised a seed
+  round led by Amplify Partners and a $14.5M Series A in 2022. The product is now
+  dormant: continual.ai is a parked single-page shell, the documentation host
+  redirects to the homepage, and the last release of the first-party Python CLI + SDK
+  on PyPI was in March 2023. This profile captures the verifiable public artifacts
+  that remain — the PyPI package, the GitHub organization, and a live domain-security
+  posture.
 url: https://raw.githubusercontent.com/api-evangelist/continual/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://continual.ai/favicon.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - amplify-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: dormant
+x-status-reason: 'Website is a parked shell; last PyPI release 2023-03-22; no live API or docs.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Developer Tools
+- Machine Learning
+- MLOps
+- Artificial Intelligence
+- Data
+- Modern Data Stack
+- Snowflake
+- SQL
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +56,24 @@ maintainers:
 common:
 - type: Website
   url: https://continual.ai
+- type: GitHubOrganization
+  url: https://github.com/continual-ai
+- type: Packages
+  url: packages/continual-packages.yml
+- type: SDKs
+  url: packages/continual-packages.yml
+- type: CLI
+  url: cli/continual-cli.yml
+- type: SourceCode
+  url: https://pypi.org/project/continual/
+- type: LLMsTxt
+  url: llms/continual-llms.txt
+- type: WellKnown
+  url: well-known/continual-well-known.yml
+- type: DomainSecurity
+  url: security/continual-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

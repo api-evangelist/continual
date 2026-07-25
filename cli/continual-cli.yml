@@ -1,0 +1,21 @@
+generated: '2026-07-18'
+method: searched
+source: https://pypi.org/project/continual/
+notes: >-
+  The `continual` command-line interface ships inside the first-party Python
+  distribution on PyPI (`pip3 install continual`), which installs both the SDK and
+  the CLI. The Continual product documentation host (docs.continual.ai) now
+  redirects to the parked homepage, so the published command reference is no longer
+  live; only the installer and top-level invocation are captured verbatim here. The
+  distribution's last release was 2023-03-22.
+cli:
+  name: continual
+  binary: continual
+  distributed_in: packages/continual-packages.yml
+  install:
+  - method: pip
+    command: pip3 install continual
+  invocation: continual
+  requires_python: '>=3.8,<3.11'
+  docs: null
+  docs_status: 'docs.continual.ai redirects to homepage (product dormant)'
