@@ -34,7 +34,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: dormant
 x-status-reason: 'Website is a parked shell; last PyPI release 2023-03-22; no live API or docs.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
