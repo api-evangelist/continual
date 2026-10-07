@@ -1,0 +1,44 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://continual.ai/pricing
+sources:
+- https://continual.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Credit-based plans; one credit = one US dollar of rated usage. Enterprise is custom/volume pricing.
+plan_count: 3
+currency: USD
+plans:
+- name: Free
+  price_text: $0 /month
+  price: 0
+  currency: USD
+  period: month
+  unit: workspace
+  included_quota: One project, $10 in starter credits, unlimited collaborators, no credit card required
+- name: Business
+  price_text: $100 /month
+  price: 100
+  currency: USD
+  period: month
+  unit: workspace
+  included_quota: Everything in Free, plus $100 in monthly credits, one shared workspace balance, unlimited
+    projects, email support
+  overage: On Business, buy additional credits or enable automatic top-ups in workspace billing
+- name: Enterprise
+  price_text: Custom
+  period: none
+  included_quota: Everything in Business, plus more than $5,000 in monthly credits, SAML SSO and SCIM,
+    white-glove onboarding, flexible deployment options
+rate_limit_statements:
+- Work that requires credits pauses when your workspace runs out.
