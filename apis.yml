@@ -76,6 +76,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Pricing
+  url: https://continual.ai/pricing
+- type: Plans
+  url: plans/continual-plans-pricing.yml
 - type: Website
   url: https://continual.ai
 - type: GitHubOrganization
